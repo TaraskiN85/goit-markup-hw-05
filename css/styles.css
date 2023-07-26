@@ -609,7 +609,7 @@ img {
 
   width: 408px;
   min-height: 584px;
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   flex-shrink: 0;
 
   border-radius: 4px;
@@ -621,8 +621,9 @@ img {
 .modal-close-btn {
   width: 24px;
   height: 24px;
-  margin-right: 0;
-  margin-left: auto;
+  position:absolute;
+  top: 24px;
+  right: 24px;
   flex-shrink: 0;
   border-radius: 50%;
   display: flex;
@@ -656,13 +657,15 @@ img {
 }
 
 .modal-title {
-  margin-top: 24px;
   margin-bottom: 16px;
   text-align: center;
   font-weight: 500;
+  color: var(--navyblue);
 }
 
 .input-label {
+  display: block;
+  margin-bottom: 4px;
   color: var(--lightslate, #8E8F99);
   /* Small Text */
   font-size: 12px;
@@ -694,6 +697,7 @@ img {
 
 .input-container {
   margin-top: 8px;
+  margin-bottom: 8px;
   position: relative;
 }
 
@@ -704,7 +708,7 @@ img {
   left: 38px;
   width: 1.25px;
   height: 18px;
-  background: #2E2F42;
+  background: var(--navyblue);
 }
 
 .modal-input.modal-textarea {
