@@ -510,10 +510,12 @@ img {
   align-items: center;
   gap: 16px;
   box-shadow: none;
+  border: none;
 }
 
 .footer-form-svg {
-  fill: var(--white)
+  fill: var(--white);
+  margin-left: 16px;
 }
 
 /* portfolio */
